@@ -1,0 +1,23 @@
+{
+  "name": "myodinrestaurant",
+  "version": "1.0.0",
+  "description": "Dynamic Restauranty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdenis29/myOdinRestaurant.git"
+  },
+  "author": "Tyson Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdenis29/myOdinRestaurant/issues"
+  },
+  "homepage": "https://github.com/tdenis29/myOdinRestaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
