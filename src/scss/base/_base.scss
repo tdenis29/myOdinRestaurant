@@ -1,4 +1,25 @@
-.hello{
-    font-size: 100px;
-    color: $mainred;
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: "Tolkien";
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Tolkien, serif;
+    padding: .5rem 0 0 0;
 }

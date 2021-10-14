@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(47, 114, 50, 1);
+}
+.site-logo{
+   width: 100%;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab-button.invisible{
+    display: none;
+    width: 250px;
+}
+.tab-button{
+    width: 75%;
+    padding: .5rem;
+    margin: .5rem;
+}
+.tab-button{
+    padding: .5rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: .5rem 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: solid 2px rgba(248, 196, 77, .5);
+    color:rgba(47, 114, 50, 1);
+    height: 25%;
+    cursor: pointer;
+}
+
+.tab-button:hover{
+    color: white;
+    background-color: rgba(47, 114, 50, 1);
+    box-shadow: none;
+    border: solid 2px white;
+}

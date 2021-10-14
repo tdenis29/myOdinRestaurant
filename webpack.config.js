@@ -1,9 +1,11 @@
+
 const path = require('path');
 
 module.exports = {
+  mode: "development",
   entry: './src/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     // styles: path.join(__dirname, 'styles'),
   },
@@ -22,9 +24,25 @@ module.exports = {
             loader: 'sass-loader',
           }
         ]
-      }
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg|ico)$/i,
+        type: 'asset/resource',
+    },
+  //   {
+  //     test: /\.(html)$/,
+  //     use: {
+  //         loader: 'html-loader',
+  //         options: {
+  //             sources: true,
+  //         }
+  //     }
+  // }
     ]
   },
+  // plugins: [new HtmlWebpackPlugin({
+  //   template: "./src/template.html"
+  // })],
   resolve: {
     alias: {
       'core': path.resolve(__dirname, './core/styles')
