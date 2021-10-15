@@ -44,6 +44,7 @@ export const menuTab = () => {
          </div>
         </div>
     </div>
+    </div>
     `
     return tab2
 }

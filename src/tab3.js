@@ -15,6 +15,7 @@ export const contactTab = () => {
         </div>
     </div>
 </div>
+</div>
     `
     return tab3
 }

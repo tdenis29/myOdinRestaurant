@@ -20,7 +20,7 @@ export const homeTab = () => {
         <p class="tab1-text">Here at the Green Dragon Inn, we have the finest pipe-weed and salted pork west of Bree!</p>
     </div>
 
-    <button class="tab1-cta">Menu</button>
+
 
     <div class="tab1-img-bar">
         <img class="tab1-dish-preview" src="${Stew}">

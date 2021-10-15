@@ -4,6 +4,7 @@ import { homeTab } from './tab1';
 import { menuTab } from './tab2';
 import { contactTab } from './tab3';
 import { testiTab } from './tab4';
+import { footerTab } from './footer';
 import './scss/input.scss';
 
 
@@ -14,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
   content.appendChild(pageLoad())
 
   content.appendChild(createTabContent())
+
+  content.appendChild(footerTab())
 
   const tabContent = document.getElementById('appendContent')
 

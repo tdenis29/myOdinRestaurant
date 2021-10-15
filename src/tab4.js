@@ -19,6 +19,7 @@ export const testiTab = () => {
             </p>
         </div>
     </div>
+    </div>
     `
     return tab4
 }
