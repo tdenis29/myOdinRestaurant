@@ -8,15 +8,15 @@ export const pageLoad = () => {
         <img class="site-logo" src="${Logo}">
     <div class="tabs">
       
-        <button id="tab1link" onclick="openTab(event, 'tab1')" class="tab-button activated">Home</button>
+        <button id="tab1link" class="tab-button activated">Home</button>
          
-        <button id="tab2link" onclick="openTab(event, 'tab2')" class="tab-button">Menu</button>
+        <button id="tab2link" class="tab-button">Menu</button>
 
         <button class="tab-button invisible"></button>
 
-        <button id="tab3link" onclick="openTab(event, 'tab3')" class="tab-button">Contact</button>
+        <button id="tab3link" class="tab-button">Contact</button>
 
-        <button id="tab4link" onclick="openTab(event, 'tab3')" class="tab-button">Testimonal</button>
+        <button id="tab4link" class="tab-button">Testimonial</button>
      
      </div>
     </header>

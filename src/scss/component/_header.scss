@@ -16,12 +16,15 @@ header{
     display: none;
     width: 250px;
 }
+.tab-button.activated{
+    background-color: rgba(248, 196, 77, 1);
+    border: solid 2px white;
+    color: white;
+}
 .tab-button{
     width: 75%;
     padding: .5rem;
     margin: .5rem;
-}
-.tab-button{
     padding: .5rem .75rem;
     text-align: center;
     text-decoration: none;

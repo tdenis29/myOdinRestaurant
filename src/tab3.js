@@ -1,5 +1,5 @@
 import Shire from "./assets/j7sqe79kt2l51.jpeg";
-import Locator from "./assets/placeholder";
+import Locator from "./assets/placeholder.png";
 
 export const contactTab = () => {
     let tab3 = document.createElement('div');

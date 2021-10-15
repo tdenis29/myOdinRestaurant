@@ -7,7 +7,7 @@ import Outside from './assets/outsidetgd.jpeg'
 export const homeTab = () => {
     let tab1 = document.createElement('div');
     tab1.innerHTML = `
-    <div class="tab1-content" style="background-image:
+    <div id="tab1" class="tab1-content" style="background-image:
     linear-gradient(to bottom, rgba(248, 196, 77, .5), rgba(47, 114, 50, .5)),
     url('${Outside}');">
     <div id="tab1" class="tab1-container">
