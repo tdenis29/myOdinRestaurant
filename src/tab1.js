@@ -1,4 +1,4 @@
-import chicken from './assets/medievalchicken.jpeg';
+import Chicken from './assets/medievalchicken.jpeg';
 import Beer from './assets/Beer.jpeg';
 import Stew from './assets/beefstew.jpeg';
 import Outside from './assets/outsidetgd.jpeg'
@@ -25,9 +25,10 @@ export const homeTab = () => {
     <div class="tab1-img-bar">
         <img class="tab1-dish-preview" src="${Stew}">
         <img class="tab1-dish-preview" src="${Beer}">
-        <img class="tab1-dish-preview" src="${chicken}">
+        <img class="tab1-dish-preview" src="${Chicken}">
     </div>
-</div>
+    </div>
+</div
     `
     return tab1
 }

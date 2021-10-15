@@ -2,9 +2,9 @@ import Logo from './assets/tgdlogo.jpeg';
 
 export const pageLoad = () => {
     let header = document.createElement('header');
+    header.classList.add('site-title')
     header.innerHTML = 
     `
-    <header class="site-title">
         <img class="site-logo" src="${Logo}">
     <div class="tabs">
       
@@ -20,6 +20,6 @@ export const pageLoad = () => {
      
      </div>
     </header>
-    `
+    `   
     return header
 };
