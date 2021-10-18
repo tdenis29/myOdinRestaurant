@@ -33,20 +33,30 @@ document.addEventListener("DOMContentLoaded", () => {
         if (e.target.textContent === "Home") {
           tabContent.innerHTML = "";
           tabContent.appendChild(homeTab())
+          replaceActive(tabs, e);
         } else if (e.target.textContent === "Menu") {
           tabContent.innerHTML = "";
           tabContent.appendChild(menuTab());
+          replaceActive(tabs, e);
         } else if (e.target.textContent === "Contact"){
           tabContent.innerHTML = "";
           tabContent.appendChild(contactTab());
+          replaceActive(tabs, e);
         } else if (e.target.textContent === "Testimonial"){
           tabContent.innerHTML = "";
           tabContent.appendChild(testiTab())
+          replaceActive(tabs, e)
         }
       });
     });
   })
 
+function replaceActive(tabs, e) {
+  for (let i = 0; i < tabs.length; i++) {
+    tabs[i].className = tabs[i].className.replace(" activated", "");
+  }
+  e.target.className += " activated";
+}
 
 
 
